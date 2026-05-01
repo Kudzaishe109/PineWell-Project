@@ -12,11 +12,8 @@ export default function FoodLogHome({ onStartScan, recentScans }) {
         </div>
         <p style={styles.headerDate}>{today}</p>
         <h1 style={styles.headline}>
-          What do you<br />wanna eat?
-        </h1>
-        <p style={styles.subtext}>
           Scan a nutrition label to instantly understand what's in your food.
-        </p>
+        </h1>
       </div>
 
       {/* Main CTA Card */}
